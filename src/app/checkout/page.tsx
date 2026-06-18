@@ -1,0 +1,16 @@
+import { redirect } from 'next/navigation';
+
+
+// Guest checkout form: full name, phone number, Indonesian address, city and province, then confirm order
+
+
+export default async function CheckoutPage() {
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <main className="max-w-4xl mx-auto px-4 py-10">
+        <h1 className="text-2xl font-bold text-slate-900 mb-6">Checkout</h1>
+        <p className="text-slate-500">Guest checkout form: full name, phone number, Indonesian address, city and province, then confirm order</p>
+      </main>
+    </div>
+  );
+}
